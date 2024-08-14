@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/formulário-teste/css/style.css">
+    <title>Formulario de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="/formulário-teste/img/undraw_online_test_re_kyfx.svg" alt="">
+        </div>
+        <div class="form" id="form">
+            <form method="post" id="form" action="processa.php">
+                <div class="form-header">
+                    <div>
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button type="submit" value="Cadastrar">
+                        <label for="login-button">Cadastrar</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="fn" class="fn" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="ln" class="ln" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Profissão">Profissão</label>
+                        <input id="Profissão" type="text" name="Profissão" class="Profissão" placeholder="Digite sua Profissão" required>
+                    </div>
+
+                    <div class="input-box">
+                        <h2>Digite seu endereço</h2>
+                        <label for="cep">Cep</label>
+                        <input id="cep" type="number" name="cep" class="cep" placeholder="00000-000" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="rua">Rua</label>
+                        <input id="rua" type="text" name="rua" class="rua" placeholder="Nome da rua" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" name="cidade" class="cidade" placeholder="Nome da Cidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="UF">UF</label>
+                        <input id="UF" type="text" name="UF" class="UF" placeholder="UF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Bairro">Bairro</label>
+                        <input id="Bairro" type="text" name="Bairro" class="Bairro" placeholder="Nome do Bairro" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="numero">Número</label>
+                        <input id="numero" type="number" name="numero" class="numero" placeholder="Número da residência" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Complemento">Complemento</label>
+                        <input id="Complemento" type="text" name="Complemento" class="Complemento" placeholder="Complemento se houver" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Digite sua senha</label>
+                        <input id="password" type="password" name="senha" class="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirme sua senha</label>
+                        <input id="confirmpassword" type="password" name="confirmpassword" class="confirmpassword" placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+
+                <!-- <div class="gender-input">
+                    <div class="gender-title">
+                        <h4>Gênero</h4>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                           <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                           <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                           <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                           <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="cadastrar-button">
+                    <button type="submit" value="Cadastrar">
+                        <label for="cadastrar-button">Cadastrar</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
